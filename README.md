@@ -2,7 +2,7 @@
 
 The purpose of this exercise was to brush up on my basic HTML, CSS, and JavaScript knowledge. What I've created is an extremely simple number guessing game that can be run in the browser.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/P1PJwk-GSrc)
 
 # Web Pages
 
