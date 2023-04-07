@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+body{
+    background-color: rgb(75, 75, 75);
+    background-image: linear-gradient(to right, rgb(215, 169, 205) , rgb(71, 71, 215));
+    font-family: "Oswald", sans-serif;
+}
+
+#content{
+    background-color: rgb(218, 214, 208);
+    padding: 2rem;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 60%;
+    margin: 5rem auto;
+}
+
+#content h1{
+    margin-top: 0;
+}
+
+.feedbackBox{
+    background-color: rgb(228, 115, 81);
+    border: 2px solid black;
+    border-radius: 5px;
+    border-collapse: separate;
+    width: 75%;
+    text-align: center;
+    margin: 2rem auto;
+    margin-top: 4rem;
+    padding: 1rem;
+}
+
+form{
+    margin-top: 4rem;
+}
+.hidden{
+    display: none;
+    background-color: none;
+}
+
+#playAgain{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(218, 218, 77);
+    width: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#playAgain:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(227, 227, 114);
+    width: 50%;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+#resetHighScore{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(218, 218, 77);
+    width: auto;
+    display: inline;
+    margin: 0 auto;
+    padding: .25rem;
+    cursor: pointer;
+}
+
+#resetHighScore:hover{
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: rgb(227, 227, 114);
+    width: auto;
+    display: inline;
+    margin: 0 auto;
+    padding: .25rem;
+    cursor: pointer;
+}
