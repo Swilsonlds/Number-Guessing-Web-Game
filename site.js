@@ -99,10 +99,7 @@ function KeepingTrack(score) {
 }
 
 function clearHighScore(){
-    if (!localStorage.getItem("highScore")){
-        highScore.innerHTML = "None";
-      } else{
-        highScore.innerHTML = "None";
-      }
+  localStorage.removeItem("highScore");
+  highScore.innerHTML = "None";
 }
 
